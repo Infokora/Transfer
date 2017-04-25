@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transfer</title>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="headHome">
+      <div class="container">
+        <div class="row">
+          <nav class="col-sm-12">
+            <menu class="col-sm-12">
+              <li class=""><a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a></li>
+              <li class="btn-log"><a href="#" class="logIn btnIn">Войти</a></li>
+            </menu>
+          </nav>
+
+          <div class="startInfo">
+            <div class="h1 homeH1 afterLine">circle web group</div>
+            <p> 10 лет работы в сфере разработки сайтов-визиток, корпоративных сайтов, интернет-проектов.</p>
+            <div><a class="buttonStart" href="products.html">Найти работника</a></div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <video autoplay="autoplay" loop="loop" muted="muted" class="bgvideo embed-responsive-item" id="bgvideo">
+      <source src="video/circle1-1.mov" type="video/quicktime" />
+      <source src="video/circle1-1.webm" type='video/webm; codecs="vp8, vorbis"' />
+      <source src="video/circle1-1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+    </video>
+  </div>
+
+  <!-- POPUP FORM LOG IN -->
+  <div class="popupLogIn popup">
+    <div class="h3 homeH3">Вход в систему</div>
+    <p class="sms">*Ошибка:( Неверный пароль или e-mail</p>
+    <form class="formLog" action="" metho="POST">
+      <input class="formTxt" type="email" placeholder="e-mail">
+      <input class="formTxt" type="password" placeholder="Пароль">
+      <div class="button"><a href="#">войти</a></div>
+    </form>
+    <div class="logInSocial">
+      <div class="socIcon rasp">
+        <p class="txt">Войти через:</p>
+        <ul class="lisIcon">
+          <li><a class="iconFacebook" href="#"></a></li>
+          <li><a class="iconLinkedin" href="#"></a></li>
+          <li><a class="iconTwitter" href="#"></a></li>
+        </ul>
+      </div>
+      <p>Еще нет акаунта?</p>
+      <div class="btnRagistration button"><a href="#">Регистрация</a></div>
+    </div>
+  </div>
+  <!-- END POPUP FORM LOG IN -->
+
+<!-- POPUP FORM RAGISTRATION USERS -->
+  <div class="popupRagistration popup">
+    <div class="h3 homeH3">Регистрация</div>
+    <p class="sms">*Сообщение об ошибке ввода</p>
+    <form class="formLog" action="" metho="POST">
+      <div class="spaceLine">
+        <input class="formTxt" type="email" placeholder="e-mail">
+        <input class="formTxt" type="password" placeholder="Пароль (8 символов)">
+        <input class="formTxt" type="password" placeholder="Повторите пароль">
+      </div>
+      <input class="formTxt" type="text" placeholder="Ваше имя">
+      <input class="formTxt" type="text" placeholder="Ваша Фамилия">
+      <input class="formTxt" type="tel" placeholder="Контактный телефон">
+      <div class="button"><a href="#">Регистрация</a></div>
+    </form>
+  </div>
+<!-- END FORM RAGISTRATION USERS -->
+
+  <!-- BACKGROUND TRANSPARENT -->
+  <div class="bgOpacity"></div>
+  <!-- END BACKGROUND TRANSPARENT -->
+  <script src="js/script.js"></script>
+</body>
+</html>

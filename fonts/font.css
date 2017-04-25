@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'gothamPro';
+  src: url('GothaProReg.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ralewayBold';
+  src: url('Raleway-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
